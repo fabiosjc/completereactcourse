@@ -17,6 +17,7 @@ module.exports = {
     },
     extensions: ['', '.js', '.jsx']
   },
+  devtool:'inline-source-map',
   module: {
     loaders: [
       {
