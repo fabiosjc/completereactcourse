@@ -3,7 +3,10 @@ var PropTypes = React.PropTypes;
 
 var About = (props) => {
   return (
-    <h3>About component</h3>
+    <div className="text-center">
+      <h1>About</h1>
+      <p>This is a weather application build on React</p>
+    </div>
   );
 }
 
